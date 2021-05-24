@@ -1,0 +1,526 @@
+/*
+Theme Name: Mr. Ito's Theme
+Author: Felipe Ito
+Author URI: http://felipeito.website
+Version: 1.0
+Tags: Mr itos, Fish and Chips, Burguer
+
+*/
+
+
+html, body {
+    height: 100%;
+}
+
+.padding50{
+  padding-top: 50px;
+}
+
+.padding-cardapio{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.padding-cardapio h1{
+  font-size: 60px;
+}
+
+body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+      margin: 0;
+  }
+
+  h2{
+    font-family: "Alegreya"; font-weight: 900; font-style: italic; font-size: 30px;
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      color: #fff;
+  }
+
+  h3, h4 {
+      font-family: "Alegreya"; font-weight: 900; font-style: italic; font-size: 50px;
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      color: #111;
+      border: 2px solid;
+  }
+  .container {
+      padding: 80px 120px;
+  }
+
+  .carousel-caption h3 {
+      font-family: "Alegreya"; font-weight: 900; font-style: italic; font-size: 40px;
+      color: #fff !important;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 215px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;/imagens/thumbnails/mr5.jpg
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+
+  a.navbar-brand {
+    padding-top: 20px;
+    left: 10%;
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    left: 42%;
+    right: 42%;
+}
+
+.navbar-nav li a:hover {
+    color: #f94341 !important;
+}
+
+.navbar-right {
+    float: right!important;
+    padding-right: 40px;
+    padding-top: 6px;
+}
+
+.navbar-left {
+    float: left!important;
+    padding-left: 40px;
+    padding-top: 6px;
+}
+
+h1 {
+    font-family: "Alegreya";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 41px;
+    letter-spacing: 2px;
+    color: #cc1f1f;
+    border-spacing: 20px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+p{
+  color: #000;
+}
+
+.titulos:after {
+    content: ' ';
+    display: block;
+    width: 10%;
+    height: 3px;
+    margin: 0.335em auto 0.45em;
+    background-color: #cc1f1f;
+}
+
+.cover-thing {
+    width: 100%;
+    height: 100%;
+    float: left;  
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(imagens/bg-black.png);;
+}
+
+.logocapa{
+    position: absolute;
+    right: 15%;
+    bottom: 320px;
+    left: 32%;
+    z-index: 10;
+    padding-top: 20px;
+}
+
+.capa{
+  position: relative;
+}
+
+.img-carrou{
+      width: 100%; /* Set width to 100% */
+      margin: none;
+      position: relative;
+}
+
+.mritos h5{
+  font-family: "Alegreya"; font-weight: 900; font-style: italic; font-size: 15px;
+  letter-spacing: 1px;
+  color: #cc1f1f;
+  padding-bottom: 0px;
+}
+
+.mr-1{
+  background-image: url(imagens/mr1.jpg);
+  width: 280px;
+  height: 140px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.modal-header, h4, .close {
+    background-color: transparent;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+#links img{
+  padding-top: 30px;
+}
+
+#divi1{
+  background-image: url(imagens/divi1.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#divi1 p{
+    font-family: "Alegreya";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-family: "Alegreya";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #cc1f1f;
+    padding-bottom: 0px;
+}
+
+.cardapio-fish{
+  background-image: url(imagens/fish.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+}
+
+.cardapio-chips{
+  background-image: url(imagens/fotos/onion.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+}
+
+.cardapio-burguer{
+  background-image: url(imagens/fotos/burguer.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+}
+
+.cardapio-saladas{
+  background-image: url(imagens/fotos/saladatilapia.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+}
+
+.cardapio-massas{
+  background-image: url(imagens/fotos/conchiglione.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+}
+
+.cardapio-chopp{
+  background-image: url(imagens/chopp.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+}
+
+.card1{
+  width: 100%;
+  background-position   : top center;
+}
+
+.cardtext{
+  background-color: #fff;
+  padding-bottom:20px;
+}
+
+.cardtext h2{
+  color: #cc1f1f;
+}
+
+.cardtext h2:after {
+    content: ' ';
+    display: block;
+    width: 40%;
+    height: 3px;
+    margin: 0.335em 0 0.45em;
+    background-color: #cc1f1f;
+}
+
+.cardtext p {
+    color: #111;
+    font-family: "Alegreya";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#contato {
+    background-color: #f3f3f3;
+}
+
+#contato h1 {
+    text-shadow: none;
+}
+
+footer p{
+  color: #fff;
+}
+
+footer a {
+    color: #e00606;
+}
+
+footer .container {
+    padding: 0px 120px;
+}
+
+.grow img{
+width:100px;
+}
+
+
+@media (max-width: 768px){
+
+.logo {
+    position: absolute;
+    left: 23%;
+    right: 25%;
+    padding-top: 10px;
+}
+
+.navbar-left {
+    padding-top: 6px;
+    text-align: center;
+}
+
+.navbar-right {
+    text-align: center;
+}
+
+.container-fluid.col-lg-3 {
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #9c2d25;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.navbar-default {
+    background-color: #000;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: #000000;
+    margin-top: 20px;
+}
+
+.carousel-caption p {
+    display: none;
+}
+
+.carousel-caption h3 {
+    font-family: "Alegreya";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 75px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.navbar {
+  position: relative;
+}
+
+#mritos {
+    background-image: none;
+    padding: 0px;
+}
+
+.container {
+    padding: 50px 15px;
+}
+
+#divi1{
+  height: 70%;
+}
+
+.grow {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+}
