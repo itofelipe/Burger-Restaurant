@@ -1,0 +1,9 @@
+{
+  "name": "Burger-Restaurant",
+  "version": "1.0.0",
+  "description": "Burger-Restaurant",
+  "main": "index.js",
+  "repository": "https://github.com/itofelipe/Burger-Restaurant.git",
+  "author": "itofelipe <felipeito96@gmail.com>",
+  "license": "MIT"
+}
